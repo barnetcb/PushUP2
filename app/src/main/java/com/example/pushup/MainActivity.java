@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-       FloatingActionButton fab = findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,6 +52,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void TestUpload() {
 
-        int i = 1+1;
+        int i = 1 + 1;
+
+        int ii = 2 + 2;
+
+        int iii = i + i;
     }
 }
